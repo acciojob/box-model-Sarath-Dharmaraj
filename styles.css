@@ -1,25 +1,31 @@
-/*  your css code here. If applicable */
-.container{
-	width: 200px;
-	height: auto;
-	padding: 10px;
-	background-color: grey;
-	border: 2px solid black;
-	border-radius: 25px;
-	text-align: center;
+.container {
+  width: 350px;
+  padding: 30px;
+  margin: 50px auto;
+  background-color: lightgray;
+  border: 5px solid black;
+  border-radius: 40px;
+  text-align: center;
 }
-div div{
-	width: 50px;
-	height: 50px;
-	display: inline-block;
-	border-radius: 50%;
+
+.red,
+.green,
+.yellow {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
 }
-.green{
-	background-color: green;
+
+.green {
+  background-color: green;
 }
-.yellow{
-	background-color: yellow;
+
+.yellow {
+  background-color: yellow;
 }
-.red{
-	background-color: red;
+
+.red {
+  background-color: red;
 }
